@@ -1,0 +1,68 @@
+{"contexts": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "what is your name?", "who are you?", "what name do you have", "tell me your name", "give me you name", "who am I talking to?", "who is this?", "can I get your name?"],
+         "responses": ["Hello, Welcome to Ice and Fire Hotel your grace!, I'm Hodor", "Warm welcome to Ice and Fire Hotel, myself Hodor", "Hello I'm 'Hodor' from Ice and Fire Hotel, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Ciao, Have a nice day", "Seven Blessings! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Valar Dohaeris", "Any time!", "My pleasure"]
+        },
+        {"tag": "check-in",
+         "patterns": ["What is your Check in time?", "when can I check in?", "When are you open?", "what is the earliest time I can move in?"],
+         "responses": ["Check-in starts after 4pm through the day", "You are welcome to check in anytime after 4pm"]
+        },
+        {"tag": "check-out",
+         "patterns": ["What time is Check out?", "What is the last time to leave", "what is your Check out policy", "when can I check out?"],
+         "responses": ["Check-out is before noon", "the last time to Check-out is 12pm"]
+        },
+        {"tag": "room",
+         "patterns": ["Which rooms do you have?", "What kinds of rooms are there?", "do you have more than one type of room?", "tell me about the types of rooms", "what variety of rooms do you have?" ,"How many room do you have ?"],
+         "responses": ["We have 3 types of rooms Standard, Deluxe, Suite"]
+        },
+        {"tag": "multi_rooms",
+         "patterns": ["Tell me more about the rooms", "how are the rooms different?", "What are the different rooms you have?" ],
+         "responses": ["Which room would you like to know about"]
+        },
+        {"tag": "Deluxe",
+         "patterns": ["what is a deluxe room", "What are the amenities of a deluxe room?", "tell me more about the deluxe room", "I want to know about the deluxe room", "Give me information about the deluxe room", "where is the deluxe room situated", "what is the location of the deluxe room", "how is the view from the deluxe room", "what view do I get from the deluxe room?"],
+         "responses": ["Deluxe is our second tier 2 person room in Vale with more space and ameneties than the standard room and a view of the mountains"]
+        },
+        {"tag": "Standard",
+         "patterns": ["what is a standard room", "What are the amenities of a standard room?", "tell me more about the standard room", "I want to know about the standard room", "Give me information about the standard room", "where is the standard room situated", "what is the location of the standard room", "how is the view from the standard room", "what view do I get from the standard room?" ],
+         "responses": ["Standard room is our basic room at the wall for 2 people that has a view of the iron islands"]
+        },
+        {"tag": "Suite",
+         "patterns": ["what is a Suite", "What are the amenities of a Suite?", "tell me more about the Suite", "I want to know about the Suite room", "Give me information about the Suite room", "where is the Suite situated", "what is the location of the Suite", "how is the view from the Suite", "what view do I get from the Suite?"],
+         "responses": ["Suite is our second bestroom in the red keep with more space and ameneties than Junior Suite and a private balcony looking over kings landing"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards for payment?", "Do you accept Mastercard?", "how to pay?", "Are you cash only?" ,"Does Amex work?", "how can I pay?", "Show me payment options", "how many payment options do you have?"],
+         "responses": ["We accept VISA, Mastercard and AMEX, since we are in direct contact with the Iron Bank", "We accept most major credit cards and so does the Iron Bank"]
+        },
+        {"tag": "reservation",
+          "patterns": ["How can I make a Reservation", "How can I book a room?", "I'd like to book a room", "how does reservation work?", "what is the process of booking a room?", "where can book a room?", "where can I make a resevation?", "help me reserve a room", "more about reservation" ],
+          "responses": ["Click here to reserve online or call 9876543210"]
+        },
+        {"tag": "cancellation",
+          "patterns": ["can I cancel my reservation?", "what is your cancellation policy", "how do I cancel reservation?", "how does cancellation work", "where can I cancel my bookings", "information on cancelation", "cancel reservation"],
+          "responses": ["learn more about cancellations here(this is a link)"]
+        },
+        {"tag": "pool",
+         "patterns": ["Do you guys have a pool?", "Is there a pool in the hotel", "how many pools do you have?", "is the outdoor pool heated?", "Are the pools heated?", "Do you have an infinity pool?", "is there an indoor pool?" ],
+         "responses": ["Ice and Fire Hotel has 3 pool an in-door pool, one outdoor all weather pool and one rooftop all weather infinity view pool"]
+       },
+        {"tag": "spa",
+         "patterns": ["Do you guys have a spa?", "Do you provide spa facilities", "is spa an option at your hotel?", "tell me about your spa facilities", "do you have indoor or outdoor spa?", "spa information", "how is the spa?"],
+         "responses": ["Ice and Fire Hotel has indoor spa treatments and we have a mountain top Gazibo spa treatmenst as well"]
+       },
+       {"tag": "activities",
+        "patterns": ["do you provide any sports activities?", "what other activities does your hotel provide?", "do you have activities for kids?", "how can I know more about different activities you provide?", "tell me about activities", "what do you know about activities?", "information on different activities"],
+        "responses": ["We provide several indoor and outdoor activities for both adults and kids like trekking or indoor games. for more information contact 98735245__"]
+       }
+
+   ]
+}
